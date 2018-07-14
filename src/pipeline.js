@@ -7,7 +7,6 @@ function pipeline(input){
     let tempArr = arr[i].split(' ');
     finalArr.push(tempArr);
   }
-console.log(finalArr);
 
 total = finalArr.reduce(function(acc, current) {
 
@@ -20,7 +19,7 @@ total = finalArr.reduce(function(acc, current) {
   return acc;
 
 },0);
-console.log(total)
+
   return total;
 }
 
